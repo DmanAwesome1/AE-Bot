@@ -40,4 +40,4 @@ bot.on('message', (message) => {
  
 })
 
-bot.login('BOT TOKEN HERE')
+bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.kQY4rCxqwJlv3hsNgEc3QLxQYfU')
