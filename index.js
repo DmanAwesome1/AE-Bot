@@ -1,4 +1,4 @@
-// ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.qKM-Z9FaBJMtzJ5rLSc0KqZaz28
+// 
 // yeet
 const Discord = require('discord.js')
 const bot = new Discord.Client();
@@ -40,4 +40,4 @@ bot.on('message', (message) => {
  
 })
 
-bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.qKM-Z9FaBJMtzJ5rLSc0KqZaz28')
+bot.login('BOT TOKEN HERE')
