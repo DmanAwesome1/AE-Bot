@@ -1,7 +1,0 @@
-echo "# BotTest" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M https/discord.com/api/webhooks/852462650365181954/HnKIfV4vxDzHCZfgFdXnNYFm9a374eDxqSvrBXIMbRbRCsSl4sY5zm_lQY7gys-I5dc6/github
-git remote add origin https://github.com/DmanAwesome1/BotTest.git
-git push -u origin https/discord.com/api/webhooks/852462650365181954/HnKIfV4vxDzHCZfgFdXnNYFm9a374eDxqSvrBXIMbRbRCsSl4sY5zm_lQY7gys-I5dc6/github
