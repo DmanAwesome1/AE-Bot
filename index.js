@@ -40,4 +40,4 @@ bot.on('message', (message) => {
  
 })
 
-bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.qKM-Z9FaBJMtzJ5rLSc0KqZaz28') hi
+bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.qKM-Z9FaBJMtzJ5rLSc0KqZaz28')
