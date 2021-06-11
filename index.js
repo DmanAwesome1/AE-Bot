@@ -1,7 +1,7 @@
 // 
 // yeet
 const Discord = require('discord.js')
-const bot = new Discord.Client();
+const bot = new Discord.Client({ws: {intents: Discord.Intents.ALL}});
 const fs = require("fs")
 bot.commands = new Discord.Collection();
 
@@ -39,5 +39,15 @@ bot.on('message', (message) => {
      if(commandfile) {commandfile.run(bot,message,args)}
  
 })
-
-bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.kQY4rCxqwJlv3hsNgEc3QLxQYfU')
+   
+bot.on('guildMemberUpdate', (oldMember , newMember) => {
+    if(oldMember.nickname !== newMember.nickname) {
+        newMember.send('You changed your nickname!')
+    }
+    let oldAvatar = oldMember.user.avatarURL() //https://link.com
+    let newAvater = newMember.user.avatarURL(); //https://link.com
+    if(oldAvatar !== newAvatar) {
+        newMember.send('Your avatar has changed!')
+    }
+})
+bot.login('ODUxNzA5NTExMjQ4NTExMDA2.YL8OSw.-VKAQUfsU0L7W-IFxd08EfymkJc')
